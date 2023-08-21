@@ -1,0 +1,5 @@
+K-means yönteminde cost olarak SSD (Sum of Square Distance), SSE (Sum of Square Error), gibi yöntemlerle belirlenir. K-means unsupervised learning olduğu için burada SSE y ile değil merkezlere olan uzaklıkların karelerinin toplamlarıyla gerçekleşir.
+Hiyerarşik kümeleme analizinde amaç gözlemleri birbirlerine olan benzerliklerine göre alt kümelere ayırmaktır.
+Hiyerarşik kümeleme birleştirici(agglomerative) ve bölümleyici (divisive) olarak ikiye ayrılır. Agglomerative kümelemede alt kümelerden üst kümelere doğru gruplamalar olurken divisive kümelemede bu durum tam ters yönedir.
+Hiyerarşik kümelemenin k-Means ten farkı müdahale edebiliyor oluşumuzdur.
+PCA analizi küçük bir miktarda bilgi kaybını göze alıp değişken boyutunu azaltmayı sağlar. (Boyut indirgeme yaklaşımı). Varyansa dayalı hareket eder.(Yüksek varyans yüksek önem) Ayrıca PCA sonucunda olan değişkenlerin birbirleriyle korelasyonları çok düşüktür.
